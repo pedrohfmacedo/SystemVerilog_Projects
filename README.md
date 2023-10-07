@@ -1,6 +1,6 @@
 # Hardware Design
-This repository contains my Hardware Design projects
-Each Project has a folder, where you can find a project_XX.txt file that contains project description/details
+This repository contains my Hardware Design projects in SystemVerilog or Verilog
+Each Project has a folder, where you can find a project_XX.txt or project_xx.pdf file that contains project description/details
 
 #### Software
 * EDAPlaygorund (Icarus Verilog 0.10 or Cadence XCELIUM 20.09)
