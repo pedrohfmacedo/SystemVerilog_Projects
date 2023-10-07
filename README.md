@@ -1,6 +1,6 @@
 # Hardware Design
 This repository contains my Hardware Design projects
-Each Project has a folder, where you can find a project__.txt file that contains project description/details
+Each Project has a folder, where you can find a project_XX.txt file that contains project description/details
 
 #### Software
 * EDAPlaygorund (Icarus Verilog 0.10 or Cadence XCELIUM 20.09)
@@ -10,7 +10,7 @@ Each Project has a folder, where you can find a project__.txt file that contains
 * WSL Linux 
 * Linux Redhat
 
-## Project 4: Thunderbird Turn Signal
+## Project 1: Thunderbird Turn Signal
 
 ### Project Overview
 
