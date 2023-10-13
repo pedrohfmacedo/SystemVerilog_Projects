@@ -53,3 +53,27 @@ I designed a sequential circuit (Finite State Machine) in SystemVerilog based on
 * Design an FSM, starting with only a textual description of its operation.
 * Implement a digital design using the SystemVerilog HDL.
 * Write a testbench using the SystemVerilog HDL
+
+## Project 5: Converter BCD 
+​
+### Project Overview
+
+The ConvertBCD block was created, which converts only one input signal to the BCD type output, that is, a [3:0] output was instantiated together
+Made a 1:4 input block, for reuse.
+
+### Learning Objectives
+* Design an FSM, starting with only a textual description of its operation.
+* Implement a digital design using the SystemVerilog HDL.
+* Write a testbench using the SystemVerilog HDL
+
+## Project 6: FSM BCD to binary
+​
+### Project Overview
+
+FSM BCD that converts only one input signal to the BCD type output, that is, a [3:0] output and
+reusing the project_05 block
+
+### Learning Objectives
+* Design an FSM, starting with only a textual description of its operation.
+* Implement a digital design using the SystemVerilog HDL.
+* Write a testbench using the SystemVerilog HDL
