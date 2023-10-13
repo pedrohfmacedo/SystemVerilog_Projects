@@ -20,3 +20,36 @@ I designed a finite state machine in SystemVerilog to control the taillights of 
 * Design an FSM, starting with only a textual description of its operation.
 * Implement a digital design using the SystemVerilog HDL.
 * Write a testbench using the SystemVerilog HDL.
+
+## Project 2: Sequence identifier
+
+### Project Overview
+
+I designed a finite state machine in SystemVerilog for least significant 4-bit sequence identifier in ASCII code. There were three lights on each side that worked in sequence to indicate the direction of a turn. The sequence was designed to be completed even when the button was released during it. If neither button or both left and right buttons were pressed in the initial states, no lights were turned on.
+
+### Learning Objectives
+* Design an FSM, starting with only a textual description of its operation.
+* Implement a digital design using the SystemVerilog HDL.
+* Write a testbench using the SystemVerilog HDL and $display, $dumpfile
+
+## Project 3: Ordenador
+​
+### Project Overview
+
+Design a combinational circuit in SystemVerilog to sort 8 unsigned 8-bit numbers.
+
+### Learning Objectives
+* Design an FSM, starting with only a textual description of its operation.
+* Implement a digital design using the SystemVerilog HDL.
+* Write a testbench using the SystemVerilog HDL
+
+## Project 4: Decoder Huffman 
+​
+### Project Overview
+
+I designed a sequential circuit (Finite State Machine) in SystemVerilog based on the huffman decoder that performs decoding according to the attached table.
+
+### Learning Objectives
+* Design an FSM, starting with only a textual description of its operation.
+* Implement a digital design using the SystemVerilog HDL.
+* Write a testbench using the SystemVerilog HDL
