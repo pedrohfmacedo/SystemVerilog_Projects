@@ -32,7 +32,7 @@ I designed a finite state machine in SystemVerilog for least significant 4-bit s
 * Implement a digital design using the SystemVerilog HDL.
 * Write a testbench using the SystemVerilog HDL and $display, $dumpfile
 
-## Project 3: Ordenador
+## Project 3: Orderer
 ​
 ### Project Overview
 
