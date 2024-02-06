@@ -1,0 +1,29 @@
+xrun(64): 23.09-s003: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s003: Started on Feb 05, 2024 at 21:27:52 -03
+xrun
+	freq_gen_tb.sv
+	-gui
+	-access +rw
+	-input waves.tcl
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /Tools/cadence/XCELIUM2309/tools/xcelium/files/xmsimrc
+xcelium> database -vcd -open waves -into waves.vcd -default 
+Created default VCD database waves
+xcelium> probe -create -vcd -all -depth all
+Created probe 1
+xcelium> run
+*_________________________________________________*
+Original frequency is 6.00e+08 Hz.
+Original period is 1.667e-09 s.
+Original period is 1.667 simulation time units.
+   3.000ns: Reset
+223596.359ns: Simulation end. Number of mismatches: 0.
+#==========================================================#
+Simulation complete via $finish(1) at time 223596359 PS + 3
+./freq_gen_tb.sv:88         $finish;
+xcelium> exit
+TOOL:	xrun(64)	23.09-s003: Exiting on Feb 05, 2024 at 21:30:43 -03  (total: 00:02:51)

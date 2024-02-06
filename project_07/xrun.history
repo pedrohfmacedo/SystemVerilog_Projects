@@ -1,0 +1,6 @@
+s1(05Feb2024:21:17:11):  xrun freq_gen_tb.sv -gui -access +rwc -input waves.tcl 
+s2(05Feb2024:21:18:29):  xrun freq_gen_tb.sv -gui -access +rw -input waves.tcl 
+s3(05Feb2024:21:19:31):  xrun freq_gen_tb.sv -gui -access +rw -input waves.tcl 
+s4(05Feb2024:21:22:12):  xrun freq_gen_tb.sv -gui -access +rw -input waves.tcl 
+s5(05Feb2024:21:24:52):  xrun freq_gen_tb.sv -gui -access +rw -input waves.tcl 
+s6(05Feb2024:21:27:53):  xrun freq_gen_tb.sv -gui -access +rw -input waves.tcl 
