@@ -1,0 +1,6 @@
+s1(18Feb2024:15:21:28):  xrun wave_gen.sv 
+s2(18Feb2024:15:45:18):  xrun wave_gen.sv 
+s3(18Feb2024:15:46:36):  xrun wave_gen.sv 
+s4(18Feb2024:15:53:43):  xrun wave_gen.sv test_pkg.sv 
+s5(18Feb2024:15:56:14):  xrun wave_gen.sv 
+s6(18Feb2024:16:01:36):  xrun wave_gen.sv 
