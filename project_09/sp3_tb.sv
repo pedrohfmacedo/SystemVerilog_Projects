@@ -1,16 +1,16 @@
- Code your testbench here
- or browse Examples
+// Code your testbench here
+// or browse Examples
 module i2s_tb();
   
   timeunit 1ns;
   timeprecision 1ps;
   
-  DUT signals
+  //DUT signals
   localparam int WIDTH = 16;
   logic clk, rst, ready, SCLK, WS, SD;
-  logic [2WIDTH-10] Tx;
+  logic [2*WIDTH-1:0] Tx;
   
-  DUT
+  //DUT
   i2s # (.WIDTH(WIDTH)
         ) DUT (
     .clk(clk),
@@ -23,9 +23,9 @@ module i2s_tb();
   );
   
   initial begin
-    $monitor(Time= %g, ready%d, SCLK%d, WS%d, SD%d., $time, ready, SCLK, WS, SD );
-    $monitor(State%d, Ready_temp %d, Tx_temp,= %d, WS_temp = %d , SD_Temp = %d, DUT.state, DUT.ready_temp, DUT.Tx_temp, DUT.WS_temp, DUT.SD_temp);
-      $dumpfile(mef.vcd);
+    $monitor("Time= %g:, ready:%d, SCLK:%d, WS:%d, SD:%d.", $time, ready, SCLK, WS, SD );
+    //$monitor("State:%d, Ready_temp: %d, Tx_temp,= %d, WS_temp = %d , SD_Temp = %d", DUT.state, DUT.ready_temp, DUT.Tx_temp, DUT.WS_temp, DUT.SD_temp);
+      $dumpfile("mef.vcd");
       $dumpvars(0,DUT);
     end
   
