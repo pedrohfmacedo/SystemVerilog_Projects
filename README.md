@@ -77,3 +77,14 @@ reusing the project_05 block
 * Design an FSM, starting with only a textual description of its operation.
 * Implement a digital design using the SystemVerilog HDL.
 * Write a testbench using the SystemVerilog HDL
+
+* ## Project 7: FLoating Adder
+​
+### Project Overview
+
+FSM BCD that converts only one input signal to the BCD type output, that is, a [3:0] output and
+reusing the project_05 block
+
+### Learning Objectives
+* Implement a digital design using the SystemVerilog HDL.
+* Write a testbench using the SystemVerilog HDL
